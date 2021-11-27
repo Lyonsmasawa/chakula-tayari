@@ -61,9 +61,11 @@ nav a {
     flex-direction: column;
     align-items: center;
 }
-.deli{
+
+.deli {
     margin: 0%;
     font-size: 6em;
+    color: rgba(252, 164, 0, 0.863);
 }
 
 .writingp {
@@ -79,7 +81,8 @@ nav a {
     padding: 0.4% .8%;
     border: transparent;
 }
-.about-us{
+
+.about-us {
     display: grid;
     padding: 5%;
     justify-content: space-around;
@@ -88,25 +91,61 @@ nav a {
     grid-row-gap: 3rem;
     grid-column-gap: 3rem;
 }
-.image-side{
+
+.image-side {
     grid-column: 1/2;
     grid-row: 1/3;
 }
-.image-side img{
+
+.image-side img {
     height: 100%;
 }
-.two-images{
+
+.two-images {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-.one-images{
+
+.one-images {
     grid-column: 2/3;
     grid-row: 2/3;
 }
-.text-side{
+
+.text-side {
     grid-column: 3/4;
     grid-row: 1/3;
-    text-align: center;
-    font-size: 24px;
+    text-align: left;
+    font-size: 20px;
+    padding: 3% 5%;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.about-head span {
+    text-decoration-line: underline;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: .5em;
+    text-decoration-color: orange;
+}
+
+.textwer {
+    font-size: 18px;
+}
+
+hr {
+    color: rgba(255, 166, 0, 0.062);
+}
+
+.explore {
+    font-size: 18px;
+    color: white;
+    background-color: orange;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 1.5% 3%;
+    border-color: transparent;
+    margin-top: 2%;
+
 }
