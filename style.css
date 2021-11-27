@@ -149,3 +149,18 @@ hr {
     margin-top: 2%;
 
 }
+.our-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu-p{
+    color: black;
+}
+.menu-p span{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: orange;
+}
+
