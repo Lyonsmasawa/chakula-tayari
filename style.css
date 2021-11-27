@@ -346,46 +346,65 @@ hr {
     color: orange;
 }
 .book-section{
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+.book-title{
+    margin-top: 70px;
+    font-size: 38px;
+}
 .cus-brief{
     font-size: 16px;
+    margin-top: 20px;
 }
 .first-one{
     align-items: center;
     display: flex;
+    row-gap: 20px;
     flex-direction: column;
     width: 100%;
 }
 form{
+    margin-top: 20px;
     display: flex;
+    row-gap: 20px;
     flex-direction: column;
     align-items: center;
     padding: 1%;
-    background-color: aquamarine;
-    width: 40%;
+    width: 55%;
 }
 #name{
     width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
 #email{
     width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
 .upper{
     width: 100%;
+    row-gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 #number{
     width: 48%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
 #people{
     width: 48%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
 .lower{
     width: 100%;
@@ -395,10 +414,19 @@ form{
 }
 #date{
     width: 48%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
 #time{
     width: 48%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
 #message{
     width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.185);
 }
