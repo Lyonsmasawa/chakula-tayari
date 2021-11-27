@@ -55,9 +55,22 @@ nav a {
     font-size: 24px;
 }
 
-.writing {}
+.writing {
+    margin-top: 9%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deli{
+    margin: 0%;
+    font-size: 6em;
+}
 
-.writingp {}
+.writingp {
+    margin: 2%;
+    font-size: 1.8em;
+}
 
 .book {
     border-radius: 18px;
