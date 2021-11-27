@@ -149,18 +149,118 @@ hr {
     margin-top: 2%;
 
 }
+.menu-head{
+    margin-top: 5%;
+}
 .our-menu{
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: whitesmoke;
 }
 .menu-p{
     color: black;
 }
 .menu-p span{
     text-decoration: underline;
-    text-underline-offset: 10px;
+    text-underline-offset: 18px;
     text-decoration-thickness: 2px;
     text-decoration-color: orange;
 }
+.grids{
+    margin-top: 2%;
+    display: flex;
+    row-gap: 3rem;
+    flex-direction: column;
+}
+.row-one{
+    display: flex;
+    align-items: center;
+    column-gap: 3rem;
+    padding: 0 6%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.card{
+    background-color: white;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 0% 1% 0%;
+}
+.card img{
+    height: 25vh;
+}
+.up{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0% 5%;
+    margin-bottom: 0%;
+    justify-content: space-between;
+}
+.ordernow{
+    background-color: ghostwhite;
+    color: orange;
+    border: transparent;
+    padding: 3% 6%;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    align-self: flex-start;
+    margin-left: 5%;
+}
+.cash{
+    background-color: orange;
+    border: transparent;
+    padding: 1% 3%;
+    color: white;
+    font-weight: 900;
+    font-size: 14px;
+}
+.card-text{
+    padding: 0% 5%;
+    text-align: left;
+    margin-top: 0%;
+}
+.explore-one{
+    align-items: center;
+    background-color: orange;
+    align-self: center;
+    padding: 1% 3%;
+    border: none;
+    border-radius: 25px;
+    margin: 4%;
+}
+.why-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+}
+.row{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding: 3%;
+    justify-content: space-around;
+}
+.card-one{
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
