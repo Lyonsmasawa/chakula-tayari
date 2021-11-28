@@ -1,3 +1,7 @@
+@keyframes mymove {
+    from {top: 50px;}
+    to {top: 0px;}
+  }
 *,
 *::after,
 *::before {
@@ -98,6 +102,7 @@ nav a {
     font-size: 1.1em;
     padding: 0.4% .8%;
     border: transparent;
+    animation: mymove 5s;
 }
 .book a{
     color: white;
@@ -169,8 +174,9 @@ hr {
     padding: 1.5% 3%;
     border-color: transparent;
     margin-top: 30px;
-
+   
 }
+
 
 .menu-head {
     margin-top: 60px;
