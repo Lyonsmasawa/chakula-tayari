@@ -2,6 +2,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
+    transition: all .2s linear;
 }
 
 body {
@@ -26,7 +27,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: .1% 0.2%;
-
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+html{
+    overflow-x: hidden;
+    scroll-padding-top: .5rem;
+    scroll-behavior: smooth;
 }
 
 .logo {
@@ -55,7 +64,7 @@ nav a {
 }
 
 .writing {
-    margin-top: 110px;
+    padding-top: 15rem;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -523,4 +532,30 @@ footer a{
 }
 .side h1, .side h2{
     color: white;
+}
+/* Animations and transitions */
+nav a.active,
+nav a:hover{
+    color:#fff;
+    background: var(--green);
+}
+.icons{
+    display: flex;
+}
+.icons i,
+.icons a{
+    cursor: pointer;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    text-align: center;
+    font-size: 1rem;
+    color: orange;
+    border-radius: 50%;
+    padding: .5rem .6rem;
+    background: rgb(238, 238, 238, .2);
+}
+.icons i:hover,
+.icons a:hover{
+    color:#fff;
+    transform: rotate(360deg);
 }
