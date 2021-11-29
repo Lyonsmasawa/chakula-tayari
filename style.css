@@ -1,24 +1,34 @@
 @keyframes mymove {
-    from {top: 50px;}
-    to {top: 0px;}
-  }
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+        background-color: black;
+    }
+}
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
     transition: all .2s linear;
 }
-html{
+
+html {
     overflow-x: hidden;
     scroll-padding-top: .5rem;
     scroll-behavior: smooth;
-    margin:0; padding:0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
-    border:none;
+    border: none;
     transition: all .2s linear;
 }
+
 body {
     margin: 0;
     padding: .1%;
@@ -102,13 +112,15 @@ nav a {
     font-size: 1.1em;
     padding: 0.4% .8%;
     border: transparent;
-    animation: mymove 5s;
+    animation: mymove 10s;
 }
-.book a{
+
+.book a {
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 .about-us {
     display: grid;
     padding: 5%;
@@ -174,7 +186,7 @@ hr {
     padding: 1.5% 3%;
     border-color: transparent;
     margin-top: 30px;
-   
+
 }
 
 
@@ -370,32 +382,38 @@ hr {
 .checked {
     color: orange;
 }
-.fa-star-half-o{
+
+.fa-star-half-o {
     color: orange;
 }
-.book-section{
+
+.book-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 20px;
 }
-.book-title{
+
+.book-title {
     margin-top: 70px;
     font-size: 38px;
 }
-.cus-brief{
+
+.cus-brief {
     font-size: 16px;
     margin-top: 20px;
 }
-.first-one{
+
+.first-one {
     align-items: center;
     display: flex;
     row-gap: 20px;
     flex-direction: column;
     width: 100%;
 }
-form{
+
+form {
     margin-top: 20px;
     display: flex;
     row-gap: 20px;
@@ -404,62 +422,72 @@ form{
     padding: 1%;
     width: 55%;
 }
-#name{
+
+#name {
     width: 100%;
     padding: 20px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-#email{
+
+#email {
     width: 100%;
     padding: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-.upper{
+
+.upper {
     width: 100%;
     row-gap: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#number{
+
+#number {
     width: 48%;
     padding: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-#people{
+
+#people {
     width: 48%;
     padding: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-.lower{
+
+.lower {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#date{
+
+#date {
     width: 48%;
     padding: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-#time{
+
+#time {
     width: 48%;
     padding: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-#message{
+
+#message {
     width: 100%;
     padding: 15px;
     border: none;
     background-color: rgba(128, 128, 128, 0.185);
 }
-#btable{
+
+#btable {
     background-color: orange;
     color: white;
     border: none;
@@ -467,7 +495,8 @@ form{
     padding: 10px 20px;
     margin-top: 50px;
 }
-.counter{
+
+.counter {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -476,7 +505,8 @@ form{
     background: url("img/image\ \(1\).webp");
     height: 30vh;
 }
-.sec-one{
+
+.sec-one {
     background-color: rgb(0, 0, 0, .8);
     width: 100%;
     height: 100%;
@@ -487,15 +517,18 @@ form{
     font-size: 20px;
     margin: 0;
 }
-.c{
+
+.c {
     margin: 0;
     font-size: large;
     font-style: italic;
 }
-.numberC{
+
+.numberC {
     margin: 10px;
 }
-footer{
+
+footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -505,21 +538,25 @@ footer{
     letter-spacing: .4em;
     background-color: black;
 }
-footer a{
+
+footer a {
     text-decoration: none;
     color: red;
 }
-.social a{
+
+.social a {
     color: white;
 }
-.sub-end{
+
+.sub-end {
     display: flex;
     column-gap: 90px;
     align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.95);
 }
-.side{
+
+.side {
     display: flex;
     flex-direction: column;
     width: 25%;
@@ -529,17 +566,20 @@ footer a{
     line-height: 2em;
     color: rgba(255, 255, 255, 0.527);
 }
-#forms{
+
+#forms {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-#mail{
+
+#mail {
     padding: 10px;
     width: 100%;
     margin: 0;
 }
-#sub{
+
+#sub {
     width: 100%;
     padding: 4px;
     margin: 0;
@@ -549,22 +589,27 @@ footer a{
     font-weight: 500;
     font-size: large;
 }
-.side h1, .side h2{
+
+.side h1,
+.side h2 {
     color: white;
 }
+
 /* Animations and transitions */
-nav a:hover{
-    color:white;
+nav a:hover {
+    color: white;
     font-size: 20px;
     padding: .4rem .6rem;
     text-align: center;
     box-shadow: 0px .1px 1px white;
 }
-.icons{
+
+.icons {
     display: flex;
 }
+
 .icons i,
-.icons a{
+.icons a {
     cursor: pointer;
     margin-left: .5rem;
     margin-right: .5rem;
@@ -575,8 +620,46 @@ nav a:hover{
     padding: .5rem .6rem;
     background: rgb(238, 238, 238, .2);
 }
+
 .icons i:hover,
-.icons a:hover{
-    color:#fff;
+.icons a:hover {
+    color: #fff;
     transform: rotate(360deg);
+}
+.b{
+    display: flex;
+    position: relative;
+}
+
+.grids .row-one .card .fa-heart,
+.grids .row-one .card .fa-eye {
+    position: absolute;
+    padding: 0;
+    background: #eee;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: black;
+   
+}
+
+.grids .row-one .card .fa-heart:hover,
+.grids .row-one .card .fa-eye:hover{
+    background: orange;
+    color:#fff;
+}
+
+.grids .row-one .card .fa-heart{
+    right:30rem;
+}
+
+.grids .row-one .card .fa-eye{
+    left:-30rem;
+}
+
+.grids .row-one .card:hover .fa-heart{
+    right:7.5rem;
+}
+
+.grids .row-one .card:hover .fa-eye{
+    left:7.5rem;
 }
