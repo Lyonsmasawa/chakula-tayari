@@ -630,36 +630,3 @@ nav a:hover {
     display: flex;
     position: relative;
 }
-
-.grids .row-one .card .fa-heart,
-.grids .row-one .card .fa-eye {
-    position: absolute;
-    padding: 0;
-    background: #eee;
-    border-radius: 50%;
-    font-size: 1.2rem;
-    color: black;
-   
-}
-
-.grids .row-one .card .fa-heart:hover,
-.grids .row-one .card .fa-eye:hover{
-    background: orange;
-    color:#fff;
-}
-
-.grids .row-one .card .fa-heart{
-    right:30rem;
-}
-
-.grids .row-one .card .fa-eye{
-    left:-30rem;
-}
-
-.grids .row-one .card:hover .fa-heart{
-    right:7.5rem;
-}
-
-.grids .row-one .card:hover .fa-eye{
-    left:7.5rem;
-}
